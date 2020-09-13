@@ -1,0 +1,9 @@
+{
+  "name": "nx tutorial",
+  "dockerComposeFile": ["./docker-compose.yml"],
+  "service": "development",
+  "shutdownAction": "none",
+  "extensions": [],
+  "workspaceFolder": "/nx-tutorial",
+  "postCreateCommand": "cd /host && git clone git@github.com:gozumi/nx-tutorial.git"
+}
